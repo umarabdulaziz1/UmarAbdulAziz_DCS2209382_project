@@ -178,7 +178,7 @@ function CentipedeNode(x, y, size, speed) {
     this.x = x;
     this.y = y;
     this.size = size;
-    this.speed = speed * 1.2;
+    this.speed = speed;
 
     this.show = function() {
         strokeWeight(2);
